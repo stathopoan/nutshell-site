@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nutshell — Premium Korinthian Currants from Greece</title>
+    <meta name="description" content="Family-grown, sun-dried Korinthian black currants from Aigio, Greece. Premium, organic and family packs — wholesale now, retail soon." />
+    <meta name="author" content="Nutshell" />
+
+    <meta property="og:title" content="Nutshell — Premium Korinthian Currants from Greece" />
+    <meta property="og:description" content="Family-grown, sun-dried Korinthian black currants from Aigio, Greece." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Nutshell — Premium Korinthian Currants from Greece" />
+    <meta name="twitter:description" content="Family-grown, sun-dried Korinthian black currants from Aigio, Greece." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"Organization","name":"Nutshell","email":"nutshell.infor@gmail.com","telephone":"+306987333858","address":{"@type":"PostalAddress","addressRegion":"Aigio","addressCountry":"GR"},"sameAs":["https://www.instagram.com/nutshell._superfoods"]}
+    </script>
+  </head>
+
+  <body class="overflow-x-hidden bg-background text-foreground font-body antialiased">
+    <!-- Header -->
+    <header id="site-header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 bg-transparent py-6">
+      <div class="container mx-auto px-6">
+        <div class="flex items-center justify-between">
+          <!-- Logo -->
+          <a href="#top" class="flex items-center gap-3 group" data-scroll>
+            <div class="logo-mark w-10 h-10 rounded-full flex items-center justify-center transition-colors duration-300 bg-golden">
+              <span class="logo-letter font-display font-bold text-lg text-earth">N</span>
+            </div>
+            <span class="logo-text font-display text-2xl font-semibold tracking-wide transition-colors duration-300 text-cream">Nutshell</span>
+          </a>
+
+          <!-- Desktop nav -->
+          <nav class="hidden md:flex items-center gap-8">
+            <a href="#top" data-scroll data-i18n="nav.home" class="nav-link font-medium text-sm tracking-wide transition-colors duration-300 hover:text-golden text-cream">Home</a>
+            <a href="#products" data-scroll data-i18n="nav.products" class="nav-link font-medium text-sm tracking-wide transition-colors duration-300 hover:text-golden text-cream">Products</a>
+            <a href="#story" data-scroll data-i18n="nav.story" class="nav-link font-medium text-sm tracking-wide transition-colors duration-300 hover:text-golden text-cream">Our Story</a>
+            <a href="#quality" data-scroll data-i18n="nav.quality" class="nav-link font-medium text-sm tracking-wide transition-colors duration-300 hover:text-golden text-cream">Quality</a>
+            <a href="#contact" data-scroll data-i18n="nav.contact" class="nav-link font-medium text-sm tracking-wide transition-colors duration-300 hover:text-golden text-cream">Contact</a>
+          </nav>
+
+          <!-- Right: language + CTA -->
+          <div class="hidden md:flex items-center gap-4">
+            <div class="lang-switcher relative" data-variant="light"></div>
+            <button class="btn btn-golden btn-md" data-toast="nav.shopNow" data-i18n="nav.shopNow">Shop Now</button>
+          </div>
+
+          <!-- Mobile -->
+          <div class="flex items-center gap-2 md:hidden">
+            <div class="lang-switcher relative" data-variant="light"></div>
+            <button id="mobile-toggle" class="mobile-toggle p-2 transition-colors text-cream" aria-label="Menu">
+              <svg class="icon-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+              <svg class="icon-close hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Mobile menu -->
+        <nav id="mobile-menu" class="hidden md:hidden absolute top-full left-0 right-0 bg-cream/95 backdrop-blur-md shadow-medium py-6 px-6 animate-fade-in">
+          <div class="flex flex-col gap-4">
+            <a href="#top" data-scroll data-mobile-close data-i18n="nav.home" class="font-medium text-foreground hover:text-primary transition-colors py-2 text-left">Home</a>
+            <a href="#products" data-scroll data-mobile-close data-i18n="nav.products" class="font-medium text-foreground hover:text-primary transition-colors py-2 text-left">Products</a>
+            <a href="#story" data-scroll data-mobile-close data-i18n="nav.story" class="font-medium text-foreground hover:text-primary transition-colors py-2 text-left">Our Story</a>
+            <a href="#quality" data-scroll data-mobile-close data-i18n="nav.quality" class="font-medium text-foreground hover:text-primary transition-colors py-2 text-left">Quality</a>
+            <a href="#contact" data-scroll data-mobile-close data-i18n="nav.contact" class="font-medium text-foreground hover:text-primary transition-colors py-2 text-left">Contact</a>
+            <button class="btn btn-hero btn-md mt-4" data-toast="nav.shopNow" data-i18n="nav.shopNow">Shop Now</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- Hero -->
+      <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url('./assets/hero-currants.jpg')">
+          <div class="absolute inset-0 bg-gradient-to-r from-earth/80 via-earth/50 to-transparent"></div>
+        </div>
+
+        <div class="relative z-10 container mx-auto px-6 py-20">
+          <div class="max-w-2xl">
+            <div class="inline-flex items-center gap-2 bg-golden/20 backdrop-blur-sm border border-golden/30 rounded-full px-4 py-2 mb-8 animate-fade-in">
+              <span class="w-2 h-2 rounded-full bg-golden animate-pulse"></span>
+              <span class="text-cream text-sm font-medium tracking-wide" data-i18n="hero.badge">Family-owned since generations</span>
+            </div>
+
+            <h1 class="font-display text-5xl md:text-6xl lg:text-7xl text-cream leading-tight mb-6 animate-fade-in" style="animation-delay: 0.2s">
+              <span data-i18n="hero.title1">The Finest</span> <br />
+              <span class="text-golden" data-i18n="hero.title2">Korinthian</span> <br />
+              <span data-i18n="hero.title3">Currants</span>
+            </h1>
+
+            <p class="text-cream/80 text-lg md:text-xl leading-relaxed mb-10 max-w-lg animate-fade-in" style="animation-delay: 0.4s" data-i18n="hero.description">
+              Experience the authentic taste of Greece with our premium sun-dried currants, handpicked from the historic Korinthian region.
+            </p>
+
+            <div class="flex flex-wrap gap-4 animate-fade-in" style="animation-delay: 0.6s">
+              <a href="#products" data-scroll class="btn btn-golden btn-xl" data-i18n="hero.exploreProducts">Explore Our Products</a>
+              <a href="#story" data-scroll class="btn btn-outline-cream btn-xl" data-i18n="hero.ourStory">Our Story</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-float">
+          <div class="w-6 h-10 border-2 border-cream/50 rounded-full flex justify-center pt-2">
+            <div class="w-1 h-3 bg-cream/70 rounded-full animate-pulse"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products -->
+      <section id="products" class="py-24 bg-secondary">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-16">
+            <span class="inline-block text-golden font-medium tracking-widest uppercase text-sm mb-4" data-i18n="products.subtitle">Our Products</span>
+            <h2 class="font-display text-4xl md:text-5xl text-foreground mb-6" data-i18n="products.title">Taste the Tradition</h2>
+            <p class="text-muted-foreground text-lg max-w-2xl mx-auto" data-i18n="products.description">
+              Each currant is carefully selected and sun-dried to perfection.
+            </p>
+
+            <div class="mt-8 inline-flex flex-col sm:flex-row items-center gap-3 bg-primary/10 border border-primary/20 rounded-xl px-6 py-4">
+              <span class="text-primary font-semibold" data-i18n="products.wholesaleNow">Currently: Wholesale Only</span>
+              <span class="hidden sm:block text-muted-foreground">•</span>
+              <span class="text-muted-foreground" data-i18n="products.retailSoon">Retail available soon</span>
+            </div>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-8">
+            <!-- Premium -->
+            <div class="group bg-card rounded-2xl overflow-hidden shadow-soft hover:shadow-strong transition-all duration-500 hover:-translate-y-2 animate-fade-in">
+              <div class="relative h-64 overflow-hidden">
+                <img src="./assets/currants-closeup.jpg" alt="Premium Korinthian currants close-up" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                <div class="absolute inset-0 bg-gradient-to-t from-earth/40 to-transparent"></div>
+                <span class="absolute top-4 right-4 bg-golden text-earth text-xs font-semibold px-3 py-1 rounded-full" data-i18n="products.premium.badge">Best Seller</span>
+              </div>
+              <div class="p-6">
+                <h3 class="font-display text-xl text-foreground mb-2 group-hover:text-primary transition-colors" data-i18n="products.premium.name">Premium Korinthian Currants</h3>
+                <p class="text-muted-foreground text-sm mb-4 leading-relaxed" data-i18n="products.premium.description">Our signature sun-dried currants.</p>
+                <div class="flex items-center justify-between">
+                  <span class="text-muted-foreground text-sm">500g</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Organic -->
+            <div class="group bg-card rounded-2xl overflow-hidden shadow-soft hover:shadow-strong transition-all duration-500 hover:-translate-y-2 animate-fade-in" style="animation-delay: 0.15s">
+              <div class="relative h-64 overflow-hidden">
+                <img src="./assets/currants-closeup.jpg" alt="Organic Korinthian currants" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                <div class="absolute inset-0 bg-gradient-to-t from-earth/40 to-transparent"></div>
+                <span class="absolute top-4 right-4 bg-golden text-earth text-xs font-semibold px-3 py-1 rounded-full" data-i18n="products.organic.badge">Organic</span>
+              </div>
+              <div class="p-6">
+                <h3 class="font-display text-xl text-foreground mb-2 group-hover:text-primary transition-colors" data-i18n="products.organic.name">Organic Currants</h3>
+                <p class="text-muted-foreground text-sm mb-4 leading-relaxed" data-i18n="products.organic.description">Certified organic.</p>
+                <div class="flex items-center justify-between">
+                  <span class="text-muted-foreground text-sm">400g</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Family -->
+            <div class="group bg-card rounded-2xl overflow-hidden shadow-soft hover:shadow-strong transition-all duration-500 hover:-translate-y-2 animate-fade-in" style="animation-delay: 0.3s">
+              <div class="relative h-64 overflow-hidden">
+                <img src="./assets/currants-closeup.jpg" alt="Family pack of Korinthian currants" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
+                <div class="absolute inset-0 bg-gradient-to-t from-earth/40 to-transparent"></div>
+                <span class="absolute top-4 right-4 bg-golden text-earth text-xs font-semibold px-3 py-1 rounded-full" data-i18n="products.family.badge">Value</span>
+              </div>
+              <div class="p-6">
+                <h3 class="font-display text-xl text-foreground mb-2 group-hover:text-primary transition-colors" data-i18n="products.family.name">Family Pack</h3>
+                <p class="text-muted-foreground text-sm mb-4 leading-relaxed" data-i18n="products.family.description">Extra value pack.</p>
+                <div class="flex items-center justify-between">
+                  <span class="text-muted-foreground text-sm">1kg</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Story -->
+      <section id="story" class="py-24 bg-background">
+        <div class="container mx-auto px-6">
+          <div class="grid lg:grid-cols-2 gap-16 items-center">
+            <div class="relative animate-slide-in-left">
+              <div class="relative rounded-2xl overflow-hidden shadow-strong">
+                <img src="./assets/greek-vineyard.jpg" alt="Greek vineyard in the Korinthian region" loading="lazy" class="w-full h-[500px] object-cover" />
+                <div class="absolute inset-0 bg-gradient-to-t from-earth/30 to-transparent"></div>
+              </div>
+
+              <div class="absolute -bottom-8 -right-8 bg-card p-6 rounded-xl shadow-strong max-w-xs hidden md:block">
+                <div class="flex items-center gap-4 mb-3">
+                  <div class="w-12 h-12 rounded-full bg-golden/20 flex items-center justify-center">
+                    <span class="font-display text-golden text-xl">🌿</span>
+                  </div>
+                  <div>
+                    <p class="font-display text-2xl text-foreground font-bold">3+</p>
+                    <p class="text-muted-foreground text-sm" data-i18n="story.generations">Generations</p>
+                  </div>
+                </div>
+                <p class="text-muted-foreground text-sm leading-relaxed" data-i18n="story.floatingCard">A family tradition of quality and craftsmanship</p>
+              </div>
+            </div>
+
+            <div class="animate-slide-in-right">
+              <span class="inline-block text-golden font-medium tracking-widest uppercase text-sm mb-4" data-i18n="story.subtitle">Our Heritage</span>
+              <h2 class="font-display text-4xl md:text-5xl text-foreground mb-6 leading-tight">
+                <span data-i18n="story.title1">A Family Story</span> <br />
+                <span class="text-primary" data-i18n="story.title2">Rooted in Tradition</span>
+              </h2>
+
+              <div class="space-y-6 text-muted-foreground leading-relaxed">
+                <p data-i18n="story.paragraph1"></p>
+                <p data-i18n="story.paragraph2"></p>
+                <p data-i18n="story.paragraph3"></p>
+              </div>
+
+              <div class="grid grid-cols-3 gap-6 mt-10 pt-10 border-t border-border">
+                <div>
+                  <p class="font-display text-3xl text-primary font-bold">50+</p>
+                  <p class="text-muted-foreground text-sm" data-i18n="story.yearsExpertise">Years of Expertise</p>
+                </div>
+                <div>
+                  <p class="font-display text-3xl text-primary font-bold">100%</p>
+                  <p class="text-muted-foreground text-sm" data-i18n="story.naturalDrying">Natural Drying</p>
+                </div>
+                <div>
+                  <p class="font-display text-3xl text-primary font-bold">♥</p>
+                  <p class="text-muted-foreground text-sm" data-i18n="story.madeWithLove">Made with Love</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quality -->
+      <section id="quality" class="py-24 bg-primary text-primary-foreground relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-96 h-96 bg-currant-light/20 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
+        <div class="absolute bottom-0 right-0 w-96 h-96 bg-golden/10 rounded-full blur-3xl translate-x-1/2 translate-y-1/2"></div>
+
+        <div class="container mx-auto px-6 relative z-10">
+          <div class="text-center mb-16">
+            <span class="inline-block text-golden font-medium tracking-widest uppercase text-sm mb-4" data-i18n="quality.subtitle">Why Choose Us</span>
+            <h2 class="font-display text-4xl md:text-5xl mb-6" data-i18n="quality.title">Quality You Can Taste</h2>
+            <p class="text-primary-foreground/80 text-lg max-w-2xl mx-auto" data-i18n="quality.description">We take pride in every step of our process.</p>
+          </div>
+
+          <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="group text-center p-8 rounded-2xl bg-primary-foreground/5 backdrop-blur-sm border border-primary-foreground/10 hover:bg-primary-foreground/10 transition-all duration-500 animate-scale-in">
+              <div class="w-16 h-16 rounded-full bg-golden/20 flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                <svg class="w-8 h-8 text-golden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+              </div>
+              <h3 class="font-display text-xl mb-3" data-i18n="quality.sunDried.title">Sun-Dried Naturally</h3>
+              <p class="text-primary-foreground/70 text-sm leading-relaxed" data-i18n="quality.sunDried.description"></p>
+            </div>
+
+            <div class="group text-center p-8 rounded-2xl bg-primary-foreground/5 backdrop-blur-sm border border-primary-foreground/10 hover:bg-primary-foreground/10 transition-all duration-500 animate-scale-in" style="animation-delay: 0.1s">
+              <div class="w-16 h-16 rounded-full bg-golden/20 flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                <svg class="w-8 h-8 text-golden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+              </div>
+              <h3 class="font-display text-xl mb-3" data-i18n="quality.natural.title">100% Natural</h3>
+              <p class="text-primary-foreground/70 text-sm leading-relaxed" data-i18n="quality.natural.description"></p>
+            </div>
+
+            <div class="group text-center p-8 rounded-2xl bg-primary-foreground/5 backdrop-blur-sm border border-primary-foreground/10 hover:bg-primary-foreground/10 transition-all duration-500 animate-scale-in" style="animation-delay: 0.2s">
+              <div class="w-16 h-16 rounded-full bg-golden/20 flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                <svg class="w-8 h-8 text-golden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/><circle cx="12" cy="8" r="6"/></svg>
+              </div>
+              <h3 class="font-display text-xl mb-3" data-i18n="quality.premium.title">Premium Quality</h3>
+              <p class="text-primary-foreground/70 text-sm leading-relaxed" data-i18n="quality.premium.description"></p>
+            </div>
+
+            <div class="group text-center p-8 rounded-2xl bg-primary-foreground/5 backdrop-blur-sm border border-primary-foreground/10 hover:bg-primary-foreground/10 transition-all duration-500 animate-scale-in" style="animation-delay: 0.3s">
+              <div class="w-16 h-16 rounded-full bg-golden/20 flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                <svg class="w-8 h-8 text-golden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+              </div>
+              <h3 class="font-display text-xl mb-3" data-i18n="quality.family.title">Family Values</h3>
+              <p class="text-primary-foreground/70 text-sm leading-relaxed" data-i18n="quality.family.description"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-earth text-cream">
+      <div class="border-b border-cream/10">
+        <div class="container mx-auto px-6 py-16">
+          <div class="bg-gradient-to-r from-primary to-currant-light rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8">
+            <div>
+              <h3 class="font-display text-2xl md:text-3xl text-cream mb-2" data-i18n="footer.cta.title">Ready to Taste the Difference?</h3>
+              <p class="text-cream/80" data-i18n="footer.cta.description">Order our premium Korinthian currants today.</p>
+            </div>
+            <button class="btn btn-golden btn-xl" data-toast="footer.cta.button" data-i18n="footer.cta.button">Order Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mx-auto px-6 py-16">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+          <div class="lg:col-span-1">
+            <div class="flex items-center gap-3 mb-6">
+              <div class="w-10 h-10 rounded-full bg-golden flex items-center justify-center">
+                <span class="font-display font-bold text-lg text-earth">N</span>
+              </div>
+              <span class="font-display text-2xl font-semibold">Nutshell</span>
+            </div>
+            <p class="text-cream/70 text-sm leading-relaxed mb-6" data-i18n="footer.brand"></p>
+            <div class="flex gap-4">
+              <a href="https://www.instagram.com/nutshell._superfoods?igsh=M2p2Mm8wdWthd3dv" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="w-10 h-10 rounded-full bg-cream/10 flex items-center justify-center hover:bg-golden hover:text-earth transition-all">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+              </a>
+              <button data-toast-text="Facebook - Coming soon!" aria-label="Facebook" class="w-10 h-10 rounded-full bg-cream/10 flex items-center justify-center hover:bg-golden hover:text-earth transition-all">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              </button>
+            </div>
+          </div>
+
+          <div>
+            <h4 class="font-display text-lg mb-6" data-i18n="footer.quickLinks">Quick Links</h4>
+            <ul class="space-y-3">
+              <li><a href="#top" data-scroll data-i18n="nav.home" class="text-cream/70 hover:text-golden transition-colors text-sm">Home</a></li>
+              <li><a href="#products" data-scroll data-i18n="nav.products" class="text-cream/70 hover:text-golden transition-colors text-sm">Products</a></li>
+              <li><a href="#story" data-scroll data-i18n="nav.story" class="text-cream/70 hover:text-golden transition-colors text-sm">Our Story</a></li>
+              <li><a href="#quality" data-scroll data-i18n="nav.quality" class="text-cream/70 hover:text-golden transition-colors text-sm">Quality</a></li>
+              <li><button data-toast-text="FAQ - Coming soon!" data-i18n="footer.faq" class="text-cream/70 hover:text-golden transition-colors text-sm">FAQ</button></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="font-display text-lg mb-6" data-i18n="footer.productsTitle">Products</h4>
+            <ul class="space-y-3">
+              <li><a href="#products" data-scroll data-i18n="footer.premiumCurrants" class="text-cream/70 hover:text-golden transition-colors text-sm">Premium Currants</a></li>
+              <li><a href="#products" data-scroll data-i18n="footer.organicCurrants" class="text-cream/70 hover:text-golden transition-colors text-sm">Organic Currants</a></li>
+              <li><a href="#products" data-scroll data-i18n="footer.familyPack" class="text-cream/70 hover:text-golden transition-colors text-sm">Family Pack</a></li>
+              <li><a href="#products" data-scroll data-i18n="footer.giftBoxes" class="text-cream/70 hover:text-golden transition-colors text-sm">Gift Boxes</a></li>
+              <li><a href="#products" data-scroll data-i18n="footer.wholesale" class="text-cream/70 hover:text-golden transition-colors text-sm">Wholesale</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="font-display text-lg mb-6" data-i18n="footer.contactUs">Contact Us</h4>
+            <ul class="space-y-4">
+              <li class="flex items-start gap-3">
+                <svg class="text-golden mt-0.5 shrink-0" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+                <span class="text-cream/70 text-sm">Aigio Region, <br />Greece</span>
+              </li>
+              <li class="flex items-center gap-3">
+                <svg class="text-golden shrink-0" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <a href="tel:+306987333858" class="text-cream/70 hover:text-golden transition-colors text-sm">+30 6987333858</a>
+              </li>
+              <li class="flex items-center gap-3">
+                <svg class="text-golden shrink-0" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                <a href="mailto:nutshell.infor@gmail.com" class="text-cream/70 hover:text-golden transition-colors text-sm">nutshell.infor@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="border-t border-cream/10 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p class="text-cream/50 text-sm" data-i18n="footer.copyright">© 2025 Nutshell. All rights reserved.</p>
+          <div class="flex gap-6">
+            <button data-toast-text="Privacy Policy - Coming soon!" data-i18n="footer.privacy" class="text-cream/50 hover:text-cream text-sm transition-colors">Privacy Policy</button>
+            <button data-toast-text="Terms of Service - Coming soon!" data-i18n="footer.terms" class="text-cream/50 hover:text-cream text-sm transition-colors">Terms of Service</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="toast-container" class="fixed bottom-6 right-6 z-[100] flex flex-col gap-3 w-[calc(100%-3rem)] max-w-sm"></div>
+
+    <script src="./translations.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
